@@ -48,7 +48,7 @@ Download that latest version of this archive.
 
 Drag / drop `src` in the root directory of `Athena`.
 
-Add the following to `src/core/server/plugins/imports.ts`
+Add the following to `src/core/plugins/imports.ts`
 
 ```ts
 import './altv-athena-api/index'
@@ -72,7 +72,7 @@ localhost:9090
 
 # Uninstallation
 
-Delete the folder `src/core/server/plugins/altv-athena-api`
+Delete the folder `src/core/plugins/altv-athena-api`
 
 Run the following in a Terminal:
 
