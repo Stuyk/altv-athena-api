@@ -1,8 +1,8 @@
 import Database from '@stuyk/ezmongodb';
 import { FastifyReply, FastifyRequest } from 'fastify';
-import { Account } from '../../../../server/interface/Account';
-import { Collections } from '../../../../server/interface/DatabaseCollections';
-import { Character } from '../../../../shared/interfaces/character';
+import { Account } from '../../../../../server/interface/iAccount';
+import { Collections } from '../../../../../server/interface/iDatabaseCollections';
+import { Character } from '../../../../../shared/interfaces/character';
 import { getVersion } from '../../utility/version';
 
 export async function getByDiscord(req: FastifyRequest, res: FastifyReply) {

@@ -1,13 +1,13 @@
 import Fastify from 'fastify';
 import * as alt from 'alt-server';
 
-import { PluginSystem } from '../../server/systems/plugins';
 import { pathRoot } from './endpoints/root';
 import { getAllPlayers } from './endpoints/players/all';
 import { getAllVehicles } from './endpoints/vehicles/all';
 import { getByName } from './endpoints/players/name';
 import { getByDiscord } from './endpoints/players/discord';
 import { getAccountByDiscord } from './endpoints/accounts/discord';
+import { PluginSystem } from '../../../server/systems/plugins';
 
 const PLUGIN_NAME = 'Athena API';
 const app = Fastify({ logger: false });
