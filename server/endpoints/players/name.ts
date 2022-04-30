@@ -1,7 +1,7 @@
 import Database from '@stuyk/ezmongodb';
 import { FastifyReply, FastifyRequest } from 'fastify';
-import { Collections } from '../../../../server/interface/DatabaseCollections';
-import { Character } from '../../../../shared/interfaces/character';
+import { Collections } from '../../../../../server/interface/iDatabaseCollections';
+import { Character } from '../../../../../shared/interfaces/character';
 import { getVersion } from '../../utility/version';
 
 export async function getByName(req: FastifyRequest, res: FastifyReply) {
