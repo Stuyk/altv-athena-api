@@ -1,0 +1,4 @@
+{
+    "devDependencies": ["fastify"],
+    "dependencies": ["fastify"]
+}
