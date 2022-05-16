@@ -1,4 +1,3 @@
 {
-    "devDependencies": ["fastify"],
     "dependencies": ["fastify"]
 }

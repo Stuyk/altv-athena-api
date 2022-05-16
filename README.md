@@ -1,4 +1,4 @@
-# Athena API
+# Athena Framework - REST API
 
 This feeds data from the Server to anyone who would like to access the endpoint. It's a relatively simple plugin that is more data centric.
 
@@ -44,20 +44,21 @@ All `GET` Requests Return a JSON Response Object
 
 # Installation
 
-Download that latest version of this archive.
+- Clone the latest version of the archiv, alternatively you can create a Fork or install this plugin as a git submodule
+  
+* Fastify dependencie will be auto installed through the Athena Framework 
 
-Drag / drop `src` in the root directory of `Athena`.
-
-Add the following to `src/core/plugins/imports.ts`
-
+### Drag and Drop
+- Recommend for everyone
 ```ts
-import './altv-athena-api/index'
+git clone https://github.com/Stuyk/altv-athena-api
 ```
 
-Run the following in a Terminal:
-
-```
-npm i fastify
+### Git Submodule (Terminal)
+- In src/core/plugins/
+- Recommend for experienced users
+```ts
+git submodule add https://github.com/Stuyk/altv-athena-api 
 ```
 
 # Verification of Installation
